@@ -1,0 +1,41 @@
+
+.navigation{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    gap: 5px;
+}
+.navigation>div{
+   border: 1px solid black;
+   font-size: 25px;
+   padding: 5px;
+   border-radius: 20px;
+}
+.navigation>div:hover{
+    background-color: black;
+    color: white;
+}
+.menuBtn{
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.menuBtn:hover{
+   background-color: black;
+   color: white;
+}
+
+
+@media (min-width: 100px) and (max-width: 639px){
+
+    .navigation{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 90%;
+        gap: 5px;
+    }
+
+}

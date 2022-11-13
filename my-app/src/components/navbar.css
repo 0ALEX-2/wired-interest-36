@@ -1,0 +1,121 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+.navLeftDiv:hover{
+    background-color: rgb(165, 161, 161);
+    padding:5px 8px 5px 8px;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.signIn{
+    background-color:black; 
+    color:white ;
+    border-radius:30px ;
+    padding:0px 8px 5px 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.signIn:hover{
+    background-color:black; 
+    color:white ;
+    border-radius:30px ;
+    padding:0px 8px 5px 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+            /* For Medium Screen */
+
+
+@media (min-width: 640px) and (max-width: 1000px) {
+    /* … */
+    .navBar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        line-height: 10px;
+    }
+    .navLeft{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 0px;
+      
+    }
+    .signIn{
+        margin: auto;
+        
+    }
+    .image{
+        margin: auto;
+    }
+    .navLeftDiv:hover{
+        background-color: rgb(165, 161, 161);
+        margin: auto;
+        padding:5px 8px 5px 8px;
+        border-radius: 30px;
+        color: white;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+  }
+
+
+                  /* For Small Screen */
+
+
+  @media (min-width: 100px) and (max-width: 639px){
+     
+    .navBar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 95%;
+        margin: auto;
+    }
+    .navLeft{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .signIn{
+        margin: auto;
+        
+    }
+    .image{
+        margin: auto;
+    }
+    .navLeftDiv:hover{
+        background-color: rgb(165, 161, 161);
+        margin: auto;
+        padding:5px 8px 5px 8px;
+        border-radius: 30px;
+        color: white;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+  }

@@ -1,0 +1,25 @@
+.searchBar{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+.inputBar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+}
+.inputBar>input{
+    width: 95%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
