@@ -3,7 +3,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    width: 90%;
+    width: 95%;
     gap: 5px;
 }
 .navigation>div{
